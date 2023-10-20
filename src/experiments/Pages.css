@@ -1,0 +1,139 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #666; /* Background color */
+}
+.textcontainer {
+    padding-top:50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+    color:oldlace;
+}
+.hidden{
+    display: none;
+}
+
+.infoBox{
+    float: left;
+    position: relative;
+    left: 50px;
+    padding: 50px;
+    height: 400px;
+    width: 400px;
+    background-color: #666;
+}
+.infoBoxInside{
+
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+}
+.dragBar{
+    background-color: #444;
+    height: 30px;
+    width: 400px;
+
+}
+
+.flip-card {
+    perspective: 200px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+/* Flip card inner container */
+.flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+/* Flip card front and back */
+.flip-card-front,
+.flip-card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    
+}
+
+.flip-card-back{
+    font-size: 18px;
+}
+.flip-card-front{
+    font-weight: bold;
+}
+
+
+.bannerHome,
+.banner {
+    background-color: #555;
+    color: #fff; 
+    text-align: center;
+    padding: 10px; 
+    transition: height 1s;
+}
+.bannerHome{
+    height: 100vh;
+    padding-top:25%;
+}
+.banner{
+    height: 125px;
+}
+
+
+.polaroidFrame{
+ 
+    padding:20px;
+    
+}
+.polaroidContainer{
+    background-color: #F7F3E4;
+    display: flex;
+}
+.crosshatch{
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(0,0,0,0.1),
+        transparent 6px,
+        transparent 2px
+      );
+}
+.crosshatchrev{
+    background: repeating-linear-gradient(
+        135deg,
+        rgba(0,0,0,0.1),
+        transparent 6px,
+        transparent 2px
+      );
+}
+.polaroidText{
+    align-items: center;
+    padding-top:15px;
+    padding-bottom: 25px;
+}
+.polaroidTextImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+}
+.polaroidImage{
+    height:80%;
+    width:80%;
+    padding-left: 10%;
+    padding-top:10%
+}
+.polaroidImageInside{
+    height:100%;
+    width:100%;
+    
+}
