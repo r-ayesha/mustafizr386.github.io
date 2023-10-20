@@ -47,7 +47,7 @@ const Portfolio = () => {
 
     return (
         <div class={isHidden ? "banner" :"bannerHome"}>
-            <h1>Mustafiz Rahman</h1>
+            <h1>Ayesha Rahman</h1>
             <p>The landing page for all things related to me.</p>
             <div class={isHidden ? 'hidden' : ''}>
                 <div style={fadeOutStyle}>
