@@ -52,7 +52,7 @@ const Portfolio = () => {
             <div class={isHidden ? 'hidden' : ''}>
                 <div style={fadeOutStyle}>
                         <div class="textcontainer" style={{textAlign: 'center'}}>
-                            <TypingEffect text=" Hello there! I'm Mustafiz Rahman, and I'm thrilled to welcome you to my corner of the internet. Here, you'll find a glimpse into my passions, adventures, and the things that make me tick. Whether you're here out of curiosity or to explore shared interests, I hope you find something that resonates with you." speed={5} />
+                            <TypingEffect text=" Hello there! I'm Ayesha Rahman, and I'm thrilled to welcome you to my corner of the internet. Here, you'll find a glimpse into my passions, adventures, and the things that make me tick. Whether you're here out of curiosity or to explore shared interests, I hope you find something that resonates with you." speed={5} />
 
                         </div>
                 </div>

@@ -101,9 +101,7 @@ return (
                     width={gridSize}
 					isResizable={false}
                     >
-                        <div  key="rockclimb"> 
-                        <Polaroid  img1={rockclimb} img2={boulderingText}/>
-                        </div>
+
                         <div key="brakejob">
                         <Polaroid  img1={brakejob} img2={brakejobText}/>
                         </div>
