@@ -49,13 +49,13 @@ const AboutMe = () => {
                 <div class="container" style={{ width: "800" }}>
                     <div class="textcontainer">
                         <p>
-                        I'm a NOVA based software developer & cyber security engineer that's currently building a web-based video game that simulates trading in the stock market against AI. I've spent the last 4 years creating a variety of tools and applications for a wide variety of customers ranging from simple accounting tools to a full-on store front. I've mostly focused on the full stack development on these applications and primarily spent my time with server management and setting up secure operations.
+                            I am currently a high school senior interested in pursuing Computer Science and Engineering.
                         </p>
                         <p>
-                            For the most part now I've been expanding my skills in cyber security and software development by participating in CTFs and creating small applications and videogames in my spare time.
+                            For the most part now I've been expanding my skills in software by taking classes at my high school and creating small projects and video games in my spare time.
                         </p>
                         <p>
-                        If I'm not busy building on my technical skills, I like to maintain my car and my lawn, go to the gym to do some bouldering and weightlifting, and occasionally I'll get my angle grinder and MIG welder to chop and reweld some scrap steel for practice. 
+                            If I'm not busy working on my technical skills, I enjoy quality time with friends and family, indulging in painting, bouldering, sketching, reading, and building my garden.
                         </p>
                     </div>
                 </div>
