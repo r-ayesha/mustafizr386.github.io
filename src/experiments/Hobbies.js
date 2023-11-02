@@ -5,13 +5,11 @@ import './Pages.css';
 import GridLayout from "react-grid-layout";
 
 
-import rockclimb from './images/RockClimb.jpg';
-import boulderingText from './images/BoulderingText.png';
-import brakejob from './images/Brakes.jpg';
-import brakejobText from './images/BrakeText.png';
-import carposter from './images/CarPosterCollage.jpg';
-import carposterText from './images/CarPosterText.png';
 
+import lion from './images/lion.jpg';
+import liontext from './images/Liontext.png';
+import pumpkin from './images/pumpkinpaint.jpg';
+import pumpkinText from './images/PumpkinText.png';
 
 import '/node_modules/react-grid-layout/css/styles.css';
 import '/node_modules/react-resizable/css/styles.css';
@@ -27,8 +25,8 @@ const Hobbies = () => {
 	const [height, setHeight] = useState(800);
 	
     const layout = [
-        { i: "rockclimb",x: 0, y: 0, w: 1, h: 1},
-        { i: "brakejob", x: 1, y: 0, w: 1, h: 1},
+        { i: "Lion",x: 0, y: 0, w: 1, h: 1},
+        { i: "Pumpkin", x: 1, y: 0, w: 1, h: 1},
         { i: "carposter", x: 2, y: 0, w: 1, h: 1}
       ];
 
@@ -102,11 +100,12 @@ return (
 					isResizable={false}
                     >
 
-                        <div key="brakejob">
-                        <Polaroid  img1={brakejob} img2={brakejobText}/>
+
+                        <div key="Lion">
+                        <Polaroid  img1={lion} img2={liontext}/>
                         </div>
-                        <div key="carposter">
-                        <Polaroid  img1={carposter} img2={carposterText}/>
+                        <div key="Pumpkin">
+                        <Polaroid  img1={pumpkin} img2={pumpkinText}/>
                         </div>
                         </GridLayout>
 	
@@ -130,8 +129,8 @@ function Polaroid(props) {
 
             <div style={{float:'left'}}class="polaroidFrame" >
                 <div class="polaroidContainer">
-                    <div class="crosshatch">
-                        <div class="crosshatchrev">
+                    <div >
+                        <div >
                             <div class="polaroidImage">
                                 <img draggable="false" class="polaroidImageInside" src={img1} alt="rockclimbing" />
                             </div>

@@ -3,7 +3,7 @@ import { useSpring, animated } from 'react-spring';
 import ReactDOM from "react-dom";
 import './Pages.css';
 import TypingEffect from './effects/TypingEffect';
-import myImage from Sunset.jpg;
+import myImage from './images/Sunset.jpg';
 
 
 const Portfolio = () => {
@@ -50,8 +50,6 @@ const Portfolio = () => {
         <div class={isHidden ? "banner" :"bannerHome"}>
             <h1>Ayesha Rahman</h1>
             <p>The landing page for all things related to me.</p>
-
-            <img src={myImage} alt="Ayesha's Image" />
 
             <div class={isHidden ? 'hidden' : ''}>
                 <div style={fadeOutStyle}>

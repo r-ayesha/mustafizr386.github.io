@@ -6,7 +6,7 @@ const Banner = () => {
 return (
     <div class="banner">
         <h1>Ayesha Rahman</h1>
-        <p>The landing page for all things related to me.</p>
+        
     </div>
 );
 };

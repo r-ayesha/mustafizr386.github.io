@@ -102,7 +102,7 @@
 .crosshatch{
     background: repeating-linear-gradient(
         45deg,
-        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.01),
         transparent 6px,
         transparent 2px
       );
@@ -110,7 +110,7 @@
 .crosshatchrev{
     background: repeating-linear-gradient(
         135deg,
-        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.01),
         transparent 6px,
         transparent 2px
       );
