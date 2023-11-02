@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.c7dec321.css",
-    "main.js": "/static/js/main.864249a2.js",
+    "main.css": "/static/css/main.5b3fc402.css",
+    "main.js": "/static/js/main.9ae1116a.js",
     "static/js/787.b98c23e5.chunk.js": "/static/js/787.b98c23e5.chunk.js",
-    "static/media/Brakes.jpg": "/static/media/Brakes.8c732e993ad1ae8a1025.jpg",
-    "static/media/RockClimb.jpg": "/static/media/RockClimb.9dc3d491ef7fcb4adf6d.jpg",
-    "static/media/CarPosterCollage.jpg": "/static/media/CarPosterCollage.b86c29376d40784f8c5a.jpg",
+    "static/media/pumpkinpaint.jpg": "/static/media/pumpkinpaint.b286ffddd33b4e7ff5c0.jpg",
+    "static/media/lion.jpg": "/static/media/lion.6037051636e5c3cda321.jpg",
+    "static/media/Sunset.jpg": "/static/media/Sunset.9e5e36791a99918a6ffb.jpg",
+    "static/media/PumpkinText.png": "/static/media/PumpkinText.1e24f82ac909a05ba601.png",
+    "static/media/Liontext.png": "/static/media/Liontext.f62693dfc008feb40dd3.png",
     "index.html": "/index.html",
-    "main.c7dec321.css.map": "/static/css/main.c7dec321.css.map",
-    "main.864249a2.js.map": "/static/js/main.864249a2.js.map",
+    "main.5b3fc402.css.map": "/static/css/main.5b3fc402.css.map",
+    "main.9ae1116a.js.map": "/static/js/main.9ae1116a.js.map",
     "787.b98c23e5.chunk.js.map": "/static/js/787.b98c23e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7dec321.css",
-    "static/js/main.864249a2.js"
+    "static/css/main.5b3fc402.css",
+    "static/js/main.9ae1116a.js"
   ]
 }
