@@ -12,7 +12,7 @@ const Skills = () => {
 
 
     const [Java, JavaFlipped] = useState(false);
-    const [Python, PythonFlipped] = useState(false);
+    const [Autodesk, PythonFlipped] = useState(false);
     const [JavaScript, JavaScriptFlipped] = useState(false);
     const [VBA, VBAFlipped] = useState(false);
     const [Lua, LuaFlipped] = useState(false);
@@ -23,8 +23,8 @@ const Skills = () => {
           if (event.target.id === "Java") {
               JavaFlipped(!Java);
           }
-          else if (event.target.id === "Python") {
-              PythonFlipped(!Python);
+          else if (event.target.id === "Autodesk") {
+              PythonFlipped(!Autodesk);
           }
           else if (event.target.id === "JavaScript") {
               JavaScriptFlipped(!JavaScript);
@@ -78,11 +78,11 @@ const Skills = () => {
                     <div class="textcontainer">
                     <p>Here's some more information about my technology skills:</p> 
 
-                        <FlipCard front="Java" back="I've been working with java for over 4 years with most of my experience in an educational setting. This language along with python are my go to languages for solving labs, programming competition questions, and for more complex math problems." 
+                        <FlipCard front="Java" back="Java is what I’m best in and is what I've garnered the most expertise in, mostly through school and small projects. It’s my go-to language for when I need to answer a question or when I need a quick code." 
                         frontCSS={{backgroundColor: 'orange', width: '200px'}} backCSS={{ width: '400px',backgroundColor: '#e67e00'}}  click={Java} clickHandler={handleCardClick}/>
 
-                        <FlipCard front="Python" back="Python is my go to language for when I need to make a quick and simple application or if I want solve a leetcode question quickly. If the problem is a bit too intracite, I'll just go back to Java or begrudgingly use VBA." 
-                        frontCSS={{backgroundColor: 'CornflowerBlue', width: '200px'}} backCSS={{ width: '400px', backgroundColor: '#5F9EA0'}}  click={Python} clickHandler={handleCardClick}/>
+                        <FlipCard front="Autodesk" back="I’ve used Autodesk CAD and Revit throughout highschool, but I’m best with Inventor. Using Inventor is therapeutic for me and there's so much versatility within the app. Currently, I’m in a course through my Engineering class to get an Inventor certification." 
+                        frontCSS={{backgroundColor: 'CornflowerBlue', width: '200px'}} backCSS={{ width: '400px', backgroundColor: '#5F9EA0'}}  click={Autodesk} clickHandler={handleCardClick}/>
 
                         <FlipCard front="JavaScript" back="I don't really like to use Javascript that much, but similar to many of the other languages on here, I can use it if I need to. With that being said, I don't hate it either since I made this entire site using React." 
                         frontCSS={{backgroundColor: 'Yellow', width: '200px', color: 'black'}} backCSS={{ width: '400px', backgroundColor: '#CCCC00', color: 'black'}} click={JavaScript} clickHandler={handleCardClick}/>
@@ -90,7 +90,7 @@ const Skills = () => {
                         <FlipCard front="VBA" back="This is a language that I absolutely abhor, but for some reason is also the one that I have the most professional experience with. I've made many PowerApps applications and Excel macros with this language and while making those tools, I began to appreciate the other languages on this list much more." 
                         frontCSS={{backgroundColor: '#018749', width: '200px'}} backCSS={{ width: '400px', backgroundColor: '#00563B'}} click={VBA} clickHandler={handleCardClick}/>
 
-                        <FlipCard front="Lua" back="Python and Java are the languages I'd pick for a practical project that wants results because they're simeple and pragmatic, Lua is the language I pick for a dream project because I love it. All my passion projects are made in Lua and will keep being made in Lua for the forseeable future." 
+                        <FlipCard front="Lua" back="Lua is the language I pick for a dream project because I love it. All my passion projects are made in Lua and will keep being made in Lua for the forseeable future." 
                         frontCSS={{backgroundColor: '#00008B', width: '200px'}} backCSS={{ width: '400px', backgroundColor: '#3333A2'}} click={Lua} clickHandler={handleCardClick}/>
                     </div>
                 </div>

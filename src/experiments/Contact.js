@@ -50,7 +50,7 @@ const Contact = () => {
 
                 <div class="container" style={{ width: "800" }}>
                     <div class="textcontainer">
-                        <p>If this website impresses you or you just want to contact me, then fill out the info below:</p>
+                        <p>If you want to contact me, then fill out the info below!:</p>
                         <form action="https://formspree.io/f/mpzgordk" method="post">
                             <label>
                                 Your email:

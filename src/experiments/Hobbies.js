@@ -4,12 +4,16 @@ import ReactDOM from "react-dom";
 import './Pages.css';
 import GridLayout from "react-grid-layout";
 
-
-
 import lion from './images/lion.jpg';
 import liontext from './images/Liontext.png';
 import pumpkin from './images/pumpkinpaint.jpg';
 import pumpkinText from './images/PumpkinText.png';
+import apple from './images/applepicking.jpg';
+import appleText from './images/AppleText.png';
+import jewlery from './images/jewlerybox.jpg';
+import jewleryText from './images/JewleryText.png';
+import tumbler from './images/tumbler.jpg';
+import tumblerText from './images/LaserTumbler.png';
 
 import '/node_modules/react-grid-layout/css/styles.css';
 import '/node_modules/react-resizable/css/styles.css';
@@ -27,7 +31,11 @@ const Hobbies = () => {
     const layout = [
         { i: "Lion",x: 0, y: 0, w: 1, h: 1},
         { i: "Pumpkin", x: 1, y: 0, w: 1, h: 1},
-        { i: "carposter", x: 2, y: 0, w: 1, h: 1}
+        { i: "Apple", x: 2, y: 0, w: 1, h: 1},
+        { i: "JewleryBox", x: 3, y: 0, w: 1, h: 1},
+        { i: "Tumbler", x: 0, y: 1, w: 1, h: 1},
+
+
       ];
 
  
@@ -44,7 +52,8 @@ const Hobbies = () => {
                     setIsVisible(true);
 					if(document.getElementById("container").offsetWidth != 0){
 						setGridSize(document.getElementById("container").offsetWidth *.9);
-						setHeight(document.getElementById("container").offsetHeight * .6);
+                        
+						setHeight(document.getElementById("bin").offsetHeight * 1.1);
 					}
                 }, 1000);
 
@@ -63,10 +72,13 @@ const Hobbies = () => {
     const updateSize = (event) =>{
         
         if(isVisible && resizeBounce){
-            //console.log(document.getElementById("image").offsetHeight *.6);
-            setResizeBounce(false);
+            
+            
             setGridSize(document.getElementById("container").offsetWidth*.9);
-			//setHeight(document.getElementById("image").offsetHeight * .6);
+            const timer = setTimeout(() => {
+                setHeight(document.getElementById("bin").offsetHeight* 1.1);
+            }, 10);
+            setResizeBounce(false);
         }
     }
 
@@ -102,10 +114,19 @@ return (
 
 
                         <div key="Lion">
-                        <Polaroid  img1={lion} img2={liontext}/>
+                        <Polaroid  img1={lion} img2={liontext} />
                         </div>
                         <div key="Pumpkin">
                         <Polaroid  img1={pumpkin} img2={pumpkinText}/>
+                        </div>
+                        <div key="Apple">
+                        <Polaroid  img1={apple} img2={appleText}/>
+                        </div>
+                        <div key="JewleryBox">
+                        <Polaroid  img1={jewlery} img2={jewleryText}/>
+                        </div>
+                        <div key="Tumbler">
+                        <Polaroid  img1={tumbler} img2={tumblerText} refered={true}/>
                         </div>
                         </GridLayout>
 	
@@ -120,7 +141,7 @@ return (
 
 
 function Polaroid(props) {
-    const { img1, img2} = props;
+    const { img1, img2, refered} = props;
   
   
   
@@ -128,7 +149,7 @@ function Polaroid(props) {
     return (
 
             <div style={{float:'left'}}class="polaroidFrame" >
-                <div class="polaroidContainer">
+                <div id={refered ? "bin" : ""} class="polaroidContainer">
                     <div >
                         <div >
                             <div class="polaroidImage">
