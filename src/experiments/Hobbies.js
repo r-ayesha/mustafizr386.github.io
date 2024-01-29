@@ -14,6 +14,13 @@ import jewlery from './images/jewlerybox.jpg';
 import jewleryText from './images/JewleryText.png';
 import tumbler from './images/tumbler.jpg';
 import tumblerText from './images/LaserTumbler.png';
+import meandcat from './images/meandcat.jpg';
+import CatText from './images/CatText.png';
+import forestpaint from './images/forestpaint.jpg';
+import ForestPaintText from './images/ForestPaintText.png';
+import mountainpaint from './images/mountainpaint.jpg';
+import MountainPaintText from './images/MountainPaintText.png';
+
 
 import '/node_modules/react-grid-layout/css/styles.css';
 import '/node_modules/react-resizable/css/styles.css';
@@ -34,7 +41,9 @@ const Hobbies = () => {
         { i: "Apple", x: 2, y: 0, w: 1, h: 1},
         { i: "JewleryBox", x: 3, y: 0, w: 1, h: 1},
         { i: "Tumbler", x: 0, y: 1, w: 1, h: 1},
-
+        { i: "Cat", x: 1, y: 1, w: 1, h: 1},
+        { i: "Forest", x: 2, y: 1, w: 1, h: 1},
+        { i: "Mountain", x: 3, y: 1, w: 1, h: 1},
 
       ];
 
@@ -53,7 +62,7 @@ const Hobbies = () => {
 					if(document.getElementById("container").offsetWidth != 0){
 						setGridSize(document.getElementById("container").offsetWidth *.9);
                         
-						setHeight(document.getElementById("bin").offsetHeight * 1.1);
+						setHeight(document.getElementById("bin").offsetHeight * 1.5);
 					}
                 }, 1000);
 
@@ -76,7 +85,7 @@ const Hobbies = () => {
             
             setGridSize(document.getElementById("container").offsetWidth*.9);
             const timer = setTimeout(() => {
-                setHeight(document.getElementById("bin").offsetHeight* 1.1);
+                setHeight(document.getElementById("bin").offsetHeight* 1.5);
             }, 10);
             setResizeBounce(false);
         }
@@ -99,7 +108,7 @@ return (
             <div class="container" style={{ width: "800" }}>
                 <div id="container" class="textcontainer" >
                     <p>
-                       Here's a pin board of projects and activities that I've done. Feel free to shuffle the photos around.
+                       Here's a pin board of projects and activities that I've done. Feel free to shuffle the photos around. Depending on your screen size, you may need to zoom in/out in order to move the photos!
                     </p>
                         
                     <GridLayout
@@ -127,6 +136,15 @@ return (
                         </div>
                         <div key="Tumbler">
                         <Polaroid  img1={tumbler} img2={tumblerText} refered={true}/>
+                        </div>
+                        <div key="Cat">
+                        <Polaroid  img1={meandcat} img2={CatText} refered={true}/>
+                        </div>
+                        <div key="Forest">
+                        <Polaroid  img1={forestpaint} img2={ForestPaintText} refered={true}/>
+                        </div>
+                        <div key="Mountain">
+                        <Polaroid  img1={mountainpaint} img2={MountainPaintText} refered={true}/>
                         </div>
                         </GridLayout>
 	

@@ -43,8 +43,8 @@ const Sidebar = () => {
       <ul>
         <li id="Home">Home</li>
         <li id="About Me">About Me</li>
-        <li id="Skills">Skills</li>
         <li id="Hobbies">Hobbies</li>
+        <li id="Skills">Skills</li>
         <li id="Contact">Contact</li>
       </ul>
     </animated.div>

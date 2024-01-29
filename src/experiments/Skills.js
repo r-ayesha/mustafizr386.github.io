@@ -76,15 +76,15 @@ const Skills = () => {
                 
                 <div class="container" style={{ width: "800" }}>
                     <div class="textcontainer">
-                    <p>Here's some more information about my technology skills:</p> 
+                    <p>Here's some more information on both my technological skills and my soft skills!:</p> 
 
-                        <FlipCard front="Java" back="Java is what I’m best in and is what I've garnered the most expertise in, mostly through school and small projects. It’s my go-to language for when I need to answer a question or when I need a quick code." 
+                        <FlipCard front="Java" back="Java is what I’m best in and is what I've garnered the most expertise in, mostly through school and small projects. It’s hands down my go-to language and is what I most often reach for. " 
                         frontCSS={{backgroundColor: 'orange', width: '200px'}} backCSS={{ width: '400px',backgroundColor: '#e67e00'}}  click={Java} clickHandler={handleCardClick}/>
 
                         <FlipCard front="Autodesk" back="I’ve used Autodesk CAD and Revit throughout highschool, but I’m best with Inventor. Using Inventor is therapeutic for me and there's so much versatility within the app. Currently, I’m in a course through my Engineering class to get an Inventor certification." 
                         frontCSS={{backgroundColor: 'CornflowerBlue', width: '200px'}} backCSS={{ width: '400px', backgroundColor: '#5F9EA0'}}  click={Autodesk} clickHandler={handleCardClick}/>
 
-                        <FlipCard front="JavaScript" back="I don't really like to use Javascript that much, but similar to many of the other languages on here, I can use it if I need to. With that being said, I don't hate it either since I made this entire site using React." 
+                        <FlipCard front="JavaScript" back="Javascript isn't exactly my first preference, but creating this website using Visual Code made me appreciate the language a lot more. I am to improve this skill over time!" 
                         frontCSS={{backgroundColor: 'Yellow', width: '200px', color: 'black'}} backCSS={{ width: '400px', backgroundColor: '#CCCC00', color: 'black'}} click={JavaScript} clickHandler={handleCardClick}/>
 
                         <FlipCard front="VBA" back="This is a language that I absolutely abhor, but for some reason is also the one that I have the most professional experience with. I've made many PowerApps applications and Excel macros with this language and while making those tools, I began to appreciate the other languages on this list much more." 

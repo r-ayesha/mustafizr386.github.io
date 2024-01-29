@@ -54,7 +54,10 @@ const Portfolio = () => {
             <div class={isHidden ? 'hidden' : ''}>
                 <div style={fadeOutStyle}>
                         <div class="textcontainer" style={{textAlign: 'center'}}>
-                            <TypingEffect text=" Hello there! I'm Ayesha Rahman, and I'm thrilled to welcome you to my corner of the internet. Here, you'll find a glimpse into my passions, adventures, and the things that make me tick. Whether you're here out of curiosity or to explore shared interests, I hope you find something that resonates with you." speed={5} />
+                            <TypingEffect text="Hi there!" speed={1} />
+                            <TypingEffect text="—————————————————————————————————————————————————————————————————————————————————————————" speed={1} />
+                            <TypingEffect text="I’m Ayesha, and here you can see a glimpse into my life. Hovering over the sidebar, you can find some broad info about me, a pinboard of my hobbies, a collection of my skills, and a place to contact me.  
+" speed={5} />
 
                         </div>
                 </div>
