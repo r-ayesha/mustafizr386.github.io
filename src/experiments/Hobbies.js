@@ -21,6 +21,14 @@ import ForestPaintText from './images/ForestPaintText.png';
 import mountainpaint from './images/mountainpaint.jpg';
 import MountainPaintText from './images/MountainPaintText.png';
 
+import stem from './images/stemtoinspire.jpg';
+import StemText from './images/StemText.png';
+import puzzle from './images/puzzle.jpg';
+import PuzzleText from './images/PuzzleText.png';
+import camera from './images/camera.jpg';
+import CameraText from './images/CameraText.png';
+import brakejob from './images/brakejob.png';
+import BrakeText from './images/BrakeText.png';
 
 import '/node_modules/react-grid-layout/css/styles.css';
 import '/node_modules/react-resizable/css/styles.css';
@@ -44,6 +52,10 @@ const Hobbies = () => {
         { i: "Cat", x: 1, y: 1, w: 1, h: 1},
         { i: "Forest", x: 2, y: 1, w: 1, h: 1},
         { i: "Mountain", x: 3, y: 1, w: 1, h: 1},
+        { i: "Puzzle", x: 0, y: 2, w: 1, h: 1},
+        { i: "Camera", x: 1, y: 2, w: 1, h: 1},
+        { i: "BrakeJob", x: 2, y: 2, w: 1, h: 1},
+        { i: "S2I", x: 3, y: 2, w: 1, h: 1},
 
       ];
 
@@ -146,6 +158,20 @@ return (
                         <div key="Mountain">
                         <Polaroid  img1={mountainpaint} img2={MountainPaintText} refered={true}/>
                         </div>
+
+                        <div key="Puzzle">
+                        <Polaroid  img1={puzzle} img2={PuzzleText} refered={true}/>
+                        </div>
+                        <div key="Camera">
+                        <Polaroid  img1={camera} img2={CameraText} refered={true}/>
+                        </div>
+                        <div key="BrakeJob">
+                        <Polaroid  img1={brakejob} img2={BrakeText} refered={true}/>
+                        </div>
+                        <div key="S2I">
+                        <Polaroid  img1={stem} img2={StemText} refered={true}/>
+                        </div>
+
                         </GridLayout>
 	
                 </div>
