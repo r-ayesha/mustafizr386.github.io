@@ -1,32 +1,40 @@
 {
   "files": {
     "main.css": "/static/css/main.5b3fc402.css",
-    "main.js": "/static/js/main.a470247e.js",
+    "main.js": "/static/js/main.79270937.js",
     "static/js/787.b98c23e5.chunk.js": "/static/js/787.b98c23e5.chunk.js",
     "static/media/pumpkinpaint.jpg": "/static/media/pumpkinpaint.a34da196dce4fdcfcd6b.jpg",
     "static/media/applepicking.jpg": "/static/media/applepicking.e690fd8b33424281f5e9.jpg",
     "static/media/tumbler.jpg": "/static/media/tumbler.233118f4d17e0664b137.jpg",
+    "static/media/puzzle.jpg": "/static/media/puzzle.c17fd74314a6d6154e8c.jpg",
     "static/media/mountainpaint.jpg": "/static/media/mountainpaint.c2915fd241f425daceb2.jpg",
     "static/media/forestpaint.jpg": "/static/media/forestpaint.370415597cd23f22519e.jpg",
+    "static/media/camera.jpg": "/static/media/camera.4f5ac602d71db9fbed38.jpg",
     "static/media/jewlerybox.jpg": "/static/media/jewlerybox.270df21275967ec97ea5.jpg",
+    "static/media/stemtoinspire.jpg": "/static/media/stemtoinspire.7a744d6631a1e878de90.jpg",
     "static/media/lion.jpg": "/static/media/lion.6037051636e5c3cda321.jpg",
     "static/media/meandcat.jpg": "/static/media/meandcat.6758a2445ae0df52f54b.jpg",
+    "static/media/brakejob.png": "/static/media/brakejob.3fcf818e930fbf763435.png",
     "static/media/Sunset.jpg": "/static/media/Sunset.9e5e36791a99918a6ffb.jpg",
     "static/media/PumpkinText.png": "/static/media/PumpkinText.1e24f82ac909a05ba601.png",
     "static/media/MountainPaintText.png": "/static/media/MountainPaintText.d4f377b18ad19c979a37.png",
+    "static/media/CameraText.png": "/static/media/CameraText.e94992df11f52bbc6404.png",
     "static/media/ForestPaintText.png": "/static/media/ForestPaintText.8568936decb7e8f37df9.png",
     "static/media/JewleryText.png": "/static/media/JewleryText.5adcc59096ad794adfdd.png",
+    "static/media/BrakeText.png": "/static/media/BrakeText.f5d7aab7ee7cda3c1300.png",
     "static/media/AppleText.png": "/static/media/AppleText.84b8db625b2fd7a225f4.png",
     "static/media/LaserTumbler.png": "/static/media/LaserTumbler.436668c28f0ed85ab4b1.png",
+    "static/media/StemText.png": "/static/media/StemText.b46af71967db72b36800.png",
     "static/media/CatText.png": "/static/media/CatText.4cb9950a401eea8ffcbf.png",
+    "static/media/PuzzleText.png": "/static/media/PuzzleText.f4cd93b20cb296092e8f.png",
     "static/media/Liontext.png": "/static/media/Liontext.f62693dfc008feb40dd3.png",
     "index.html": "/index.html",
     "main.5b3fc402.css.map": "/static/css/main.5b3fc402.css.map",
-    "main.a470247e.js.map": "/static/js/main.a470247e.js.map",
+    "main.79270937.js.map": "/static/js/main.79270937.js.map",
     "787.b98c23e5.chunk.js.map": "/static/js/787.b98c23e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b3fc402.css",
-    "static/js/main.a470247e.js"
+    "static/js/main.79270937.js"
   ]
 }
